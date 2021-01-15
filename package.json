@@ -1,0 +1,25 @@
+{
+  "name": "vanilla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev:parcel": "parcel index.html --open",
+    "dev:vite": "vite --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "prosemirror-commands": "1.1.5",
+    "prosemirror-example-setup": "1.1.2",
+    "prosemirror-keymap": "1.1.4",
+    "prosemirror-schema-basic": "1.1.2",
+    "prosemirror-tables": "1.1.1",
+    "prosemirror-view": "1.16.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "parcel-bundler": "^1.12.4",
+    "vite": "^2.0.0-beta.29"
+  },
+  "keywords": []
+}
