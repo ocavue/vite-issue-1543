@@ -1,3 +1,8 @@
+import "../node_modules/prosemirror-view/style/prosemirror.css"
+import "../node_modules/prosemirror-menu/style/menu.css"
+import "../node_modules/prosemirror-example-setup/style/style.css"
+import "../node_modules/prosemirror-gapcursor/style/gapcursor.css"
+
 import { EditorView } from "prosemirror-view";
 import { EditorState } from "prosemirror-state";
 import { DOMParser as PDOMParser, Schema } from "prosemirror-model";
