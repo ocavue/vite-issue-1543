@@ -6,8 +6,8 @@
   "scripts": {
     "dev:parcel": "parcel index.html --open",
     "dev:vite": "vite --open",
-    "build:parcel": "parcel build index.html",
-    "build:vite": "vite build"
+    "build:parcel": "parcel build index.html --out-dir ./dist_parcel",
+    "build:vite": "vite build --outDir ./dist_vite"
   },
   "dependencies": {
     "prosemirror-commands": "1.1.5",
